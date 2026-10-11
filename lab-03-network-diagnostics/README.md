@@ -67,7 +67,7 @@ service on port 80/443.
 
 `tracert -d -h 12 -w 1000 192.168.20.10`
 
-- **First responding hop:** 192.168.100.1 (matches the expected gateway)
+- **First responding hop:** 192.168.100.1 (matches the workstation's configured gateway)
 - **Destination reached:** No — timed out after hop 2
 - **Asterisks:** intermediate hops not returning ICMP Time Exceeded, usually
   rate-limiting or firewall filtering — not proof forwarding stopped
