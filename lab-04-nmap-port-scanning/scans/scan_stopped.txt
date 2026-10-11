@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated as: nmap -sT -p 8000,8001 -oN scan_stopped.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00025s latency).
+
+PORT     STATE  SERVICE
+8000/tcp closed http-alt
+8001/tcp closed vcom-tunnel
+
+# Nmap done -- 1 IP address (1 host up) scanned
