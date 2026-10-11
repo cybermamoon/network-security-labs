@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated as: nmap -sT -sV -p 8000,8001 -oN scan_running.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00032s latency).
+
+PORT     STATE  SERVICE     VERSION
+8000/tcp open   http        SimpleHTTPServer 0.6 (Python 3.13.12)
+8001/tcp closed vcom-tunnel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done -- 1 IP address (1 host up) scanned
